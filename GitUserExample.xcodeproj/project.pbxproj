@@ -21,6 +21,7 @@
 		BA331A44187E6604003173A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA331A26187E6603003173A7 /* UIKit.framework */; };
 		BA331A4C187E6604003173A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA331A4A187E6604003173A7 /* InfoPlist.strings */; };
 		BA331A4E187E6604003173A7 /* GitUserExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA331A4D187E6604003173A7 /* GitUserExampleTests.m */; };
+		BA331A59187E6E1E003173A7 /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = BA331A58187E6E1E003173A7 /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BA331A49187E6604003173A7 /* GitUserExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUserExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BA331A4B187E6604003173A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA331A4D187E6604003173A7 /* GitUserExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUserExampleTests.m; sourceTree = "<group>"; };
+		BA331A57187E6E1E003173A7 /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		BA331A58187E6E1E003173A7 /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				BA331A31187E6603003173A7 /* AppDelegate.h */,
 				BA331A32187E6603003173A7 /* AppDelegate.m */,
 				BA331A34187E6603003173A7 /* Main.storyboard */,
+				BA331A57187E6E1E003173A7 /* MapForItinerary.h */,
+				BA331A58187E6E1E003173A7 /* MapForItinerary.m */,
 				BA331A37187E6603003173A7 /* ViewController.h */,
 				BA331A38187E6603003173A7 /* ViewController.m */,
 				BA331A3A187E6603003173A7 /* Images.xcassets */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA331A59187E6E1E003173A7 /* MapForItinerary.m in Sources */,
 				BA331A39187E6603003173A7 /* ViewController.m in Sources */,
 				BA331A33187E6603003173A7 /* AppDelegate.m in Sources */,
 				BA331A2F187E6603003173A7 /* main.m in Sources */,
