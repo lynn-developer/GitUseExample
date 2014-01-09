@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is a git test");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
